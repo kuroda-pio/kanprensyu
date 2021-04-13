@@ -1,0 +1,451 @@
+html {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  width: 1280px;
+  height: 620px;
+}
+
+
+.box {
+  position: relative;
+  width: 1280px;
+  height: 620px;
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header-1 {
+  margin: 0 auto;
+  position: absolute;
+  top: 49px;
+  left: 160px;
+  font-size: 36px;
+  color: white;
+  font-family: Regular;
+  
+}
+.header-2 {
+  margin: 0 auto;
+  position: absolute;
+  top: 190px;
+  font-size: 120px;
+  font-family: Regular;
+  color: white;
+}
+
+.header-3 {
+  margin: 0 auto;
+  position: absolute;
+  top: 360px;
+  font-size: 20px;
+  color: white;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container h1{
+  margin-top: 80px;
+  margin-bottom: 0;
+  font-family: Poppins, Bold;
+  color: #333333;
+} 
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.container2 p {
+  border-top: 1px solid black;
+  width: 40px;
+  margin: 0 auto;
+}
+
+.container3 {
+  width: 576px;
+  height: 70px;
+  margin: 0 auto;
+}
+.container3 p {
+  font-family: Myriad Pro, Regular;
+  font-size: 16px;
+  text-align: center;
+  line-height: 22px;
+  color: #2B2B2B;
+}
+
+.concept {
+  position: relative;
+  width: 960px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.concept img {
+  margin-top: 40px;
+  width: 100%;
+  z-index: 100;
+}
+
+.concept-haikei {
+  position: absolute;
+  top: 260px;
+  width: 1280px;
+  height: 240px;
+  background: #EDEDED 0% 0% no-repeat padding-box;
+  margin: 0 auto;
+
+}
+
+.Work {
+  display: flex;
+  justify-content: center;
+}
+.Work h1{
+    
+    margin-top: 180px;
+    margin-bottom: 0;
+    font-family: Poppins, Bold;
+    color: #333333;
+}
+
+.Work2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.Work2 p{
+  border-top: 1px solid black;
+  width: 40px;
+  margin: 0 auto;
+}
+
+.Works-setsumei {
+  width: 576px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.Works-setsumei p {
+    font-family: Myriad Pro, Regular;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+    color: #2B2B2B;
+}
+
+.works-content {
+  width: 960px;
+  height: 1609px;
+  margin: 0;
+}
+
+.item-main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  position: relative;
+}
+
+.item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.content-img1 {
+  width: 420px;
+  height: 420px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+.content-img2 {
+  width: 420px;
+  height: 630px;
+  margin-top: 120px;
+  position: absolute;
+}
+
+.content-img3 {
+  width: 420px;
+  height: 630px;
+  position: absolute;
+  margin-top: 640px;
+}
+
+.content-img4 {
+  width: 420px;
+  height: 400px;
+  margin-top: 969px;
+}
+
+.item h1 {
+  font-family: Poppins, Bold;
+  font-size: 24px;
+  text-align: left;
+  color: #333333;
+  margin-top: 16px;
+  margin-bottom: 5px;
+
+}
+
+.item p {
+  font-family: Myriad Pro, Regular;
+  font-size: 16px;
+  text-align: left;
+  color: #2B2B2B;
+  margin: 0;
+}
+
+.frolist {
+  margin-top: 200px;
+  width: 1280px;
+  height: 374px;
+}
+
+.frolist-haikei {
+  width:1280px;
+  height: 374px;
+  background-color: #EDEDED;
+  position: absolute;
+  margin: 0 atuo;
+}
+.frolist-title {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 80px;
+}
+
+.frolist-title h1{
+  top: 80px;
+}
+
+.frolist-title2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 60px;
+}
+.frolist-title2 p{
+  border-top: 1px solid black;
+  width: 40px;
+  margin: 0 auto;
+}
+
+.frolist-title3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 60px;
+}
+
+.frolist-list {
+  position: relative;
+  top: 80px;
+}
+
+.frolist-list ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+.frolist-list h1 {
+  font-size: 24px;
+  text-align: left;
+}
+
+.frolist-list li {
+  width: 300px;
+}
+
+.frolist-list li p {
+  font-size: 16px;
+}
+
+.shop-info {
+  width: 960px;
+  height: 686px;
+  position: relative;
+  top: 180px;
+  margin: 0 auto;
+}
+.shop-info-title h1{
+    margin-top: 180px;
+    margin-bottom: 0;
+    font-family: Poppins, Bold;
+    color: #333333;
+    font-size: 36px;
+}
+
+.shop-info-title2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.shop-info-title2 p{
+  border-top: 1px solid black;
+  width: 40px;
+  margin: 0;
+  height: 1px;
+}
+
+.shop-info-title3 {
+  margin-top: 32px;
+}
+
+.info-list {
+  width: 912px;
+  height: 160px;
+  margin-top: 40px;
+ 
+}
+
+.info-list ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-img {
+  width: 480px;
+  height: 320px;
+}
+.info-table {
+  border: 1px black dotted;
+  box-sizing: border-box;
+  width: 480px;
+  height: 320px;
+  
+}
+
+table {
+  padding-top: 14px;
+  padding-bottom: 0px;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 18px;
+  font-family:normal normal normal 16px;
+  margin-left: 16px;
+  }
+
+table th {
+  border-right: 1px solid black;
+  vertical-align: top;
+  text-align: left;
+} 
+
+table td {
+  font-size: 16px;
+  text-align: left;
+}
+
+.contact {
+  width: 1280px;
+  height: 450px;
+  top: 180px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.contact-title {
+  width: 100%;
+  position: absolute;
+  top: 2px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.contact-title h1{
+    margin-top: 180px;
+    margin: 0;
+    font-family: Poppins, Bold;
+    color: #333333;
+    font-size: 36px;
+}
+
+.contact-title2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.contact-title2 p{
+  border-top: 1px solid black;
+  width: 40px;
+  margin: 0;
+  height: 1px;
+}
+
+.contact-title3 {
+  width: 100%;
+  height: 43px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+
+
+.link {
+  width: 360px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.link a {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+.link p {
+  display: inline-block;
+  font-size: 20px;
+  text-align-last: center;
+  font-family: normal normal normal
+}
+footer {
+  margin-bottom: 12px;
+vertical-align: middle;
+position: relative;
+top: 180px;
+}
+
+footer p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
